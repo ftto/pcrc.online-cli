@@ -1,0 +1,17 @@
+[package]
+name = "pcrc"
+version = "0.1.0"
+authors = ["hoony <hoony@dotface.kr>"]
+license = "MIT"
+edition = "2018"
+homepage = "https://pcrc.online"
+repository = "https://github.com/ftto/pcrc.online-cli"
+keywords = ["cli", "community", "online"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.10", features = ["json"] }
+structopt = "0.3.13"
+tokio = { version = "0.2", features = ["full"] }
